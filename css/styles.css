@@ -47,11 +47,17 @@ table {
 	border-spacing: 0;
 }
 
-/** My CSS Starts */
+/** CSS RESET STYLESHEET ENDS */
 
 body {
-    background-color: rgb(58, 121, 176);
+    background-color: #c4c4c4;
     font-family: helvetica;
+}
+
+img {
+    position: fixed;
+    left: 30px;
+    top: 30px;
 }
 
 nav {
@@ -61,7 +67,7 @@ nav {
 }
 
 nav ul {
-    margin: 0 auto;
+    margin: 10px auto;
     text-align: center;
 }
 
@@ -86,7 +92,7 @@ nav h1 {
     font-weight: bold;
     font-size: 40px;
     text-align: center;
-    margin: 20px;
+    margin: 30px;
 }
 
 section h2 {
